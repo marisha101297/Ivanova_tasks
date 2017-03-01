@@ -31,6 +31,8 @@ namespace function_with_sin
             resultOfMethod = Vichislenie(peremennayaVchislitele, peremennayaVznamenatele);
             y = y + resultOfMethod;
             Console.WriteLine(y);
+ 
+
 
         }
     }
