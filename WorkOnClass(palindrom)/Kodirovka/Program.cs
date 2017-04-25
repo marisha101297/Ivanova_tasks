@@ -14,7 +14,7 @@ namespace Kodirovka
 
             char[] array = new char[text.Length];
             int[,] mass = new int[text.Length, 2];
-            char[,] trrt = new char[text.Length, 2];
+            char[,] mas = new char[text.Length, 2];
 
 
             for (int i = 0; i < text.Length; i++)
@@ -31,32 +31,30 @@ namespace Kodirovka
 
             for (int i = 0; i < text.Length; i++)
             {
-                trrt[i, 0] = Convert.ToChar(mass[i, 0]);
-                trrt[i, 1] = Convert.ToChar(mass[i, 1]);
+                mas[i, 0] = Convert.ToChar(mass[i, 0]);
+                mas[i, 1] = Convert.ToChar(mass[i, 1]);
             }
 
-            return trrt;
-
+            return mas;
         }
-
 
         static char[] Decode(char[,] Code)
         {
-            int[] erre = new int[Code.Length / 2];
-            char[] trrt = new char[Code.Length / 2];
+            int[] mass = new int[Code.Length / 2];
+            char[] mas = new char[Code.Length / 2];
 
             for (int i = 0; i < Code.Length / 2; i++)
             {
                 // erre[i,0] = (int)Kod[i,0];
-                erre[i] = (int)Code[i, 0] - (int)Code[i, 1];
+                mass[i] = (int)Code[i, 0] - (int)Code[i, 1];
             }
 
             for (int i = 0; i < Code.Length / 2; i++)
             {
-                trrt[i] = Convert.ToChar(erre[i]);
+                mas[i] = Convert.ToChar(mass[i]);
             }
 
-            return trrt;
+            return mas;
         }
 
 
