@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "director", "director\direct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "security", "security\security.csproj", "{7326FE43-9F4C-4276-8FF4-F43824FA9417}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datatime", "datatime\datatime.csproj", "{E00C7416-6D26-4C14-B23C-5102050B8EB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7326FE43-9F4C-4276-8FF4-F43824FA9417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7326FE43-9F4C-4276-8FF4-F43824FA9417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7326FE43-9F4C-4276-8FF4-F43824FA9417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00C7416-6D26-4C14-B23C-5102050B8EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00C7416-6D26-4C14-B23C-5102050B8EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00C7416-6D26-4C14-B23C-5102050B8EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00C7416-6D26-4C14-B23C-5102050B8EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
